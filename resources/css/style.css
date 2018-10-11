@@ -11,12 +11,23 @@ h1 {
 
 .list {
   background-image: url("../images/the-flatiron-building.png");
+  object-fit: cover;
 }
 
-li {
+ul {
   font-family: Helvetica;
   font-size: 18px;
   color: white;
+  list-style-type: none
+
+}
+
+ul a {
+  color: white;
+}
+
+li {
+  padding-top: 13px;
 }
 
 h2 {
@@ -50,4 +61,8 @@ p {
   color: white;
   background-color: dimgray;
   text-align: left;
+}
+
+.footer a {
+  color: white;
 }
